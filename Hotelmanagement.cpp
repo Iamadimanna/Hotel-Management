@@ -136,7 +136,7 @@ void HotelMgnt::guestSummaryReport()
             cout << "\n Room Number : " << rooms[i].roomNumber;
             cout << "\n Address (only city) : " << rooms[i].cust.address;
             cout << "\n Phone : " << rooms[i].cust.phone;
-            cout << "\n---------------------------------------";
+            cout << "\n--------------------------------------";
         }
     }
     getch();
